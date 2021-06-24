@@ -1,0 +1,48 @@
+
+.modal{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+}
+.modal.active{
+  transform: scale(1);
+}
+
+.form {
+    width: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: white;
+    height: 400px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  h2 {
+    text-align: center;
+  }
+  
+  input {
+    width: 350px;
+  }
+  p {
+    padding-top: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+  

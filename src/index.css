@@ -1,13 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: scroll;
+  width: 100vw;
+  height: 100vw;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.app {
+  width: 100vw;
+  height: 100vw;
+}
+.navbar {
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: green;
+  border: 2px solid black;
+}
+.container-table {
+  padding: 0;
+}
+.table,
+td {
+  border: 2px solid black;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+}
+.content {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+tr {
+  height: 50px;
+  width: 220px;
+
+}
+.table-b {
+  width: 220px;
+  table-layout: fixed;
+  display: table;
+}
+table {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+td {
+  width: 220px !important;
+}
+
+.input{
+  padding: 5px;
+  width: 205px;
+  height: 40px;
+  scale: 0;
+}
+.input-active{
+  padding: 5px;
+  width: 205px;
+  height: 40px;
+  scale: 1;
+  cursor: pointer;
 }
