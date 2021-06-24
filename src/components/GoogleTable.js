@@ -26,16 +26,16 @@ export default function GoogleTable(props) {
             </tbody>
         )
     }
-    function isHiddenInput(index, elem) {
-        console.log(`index = ${index}`);
-        console.log(`elem = ${elem}`);
-        const target = {i: index, j: elem}
-        if ((props.listOfInput.includes(target))) {
-            return false
-        } else {
-            return true
-        }
-    }
+    // function isHiddenInput(index, elem) {
+    //     console.log(`index = ${index}`);
+    //     console.log(`elem = ${elem}`);
+    //     const target = {i: index, j: elem}
+    //     if ((props.listOfInput.includes(target))) {
+    //         return false
+    //     } else {
+    //         return true
+    //     }
+    // }
 
     return (
         <div className="content">
